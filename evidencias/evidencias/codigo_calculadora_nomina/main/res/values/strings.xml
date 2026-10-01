@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calcular Nomina</string>
+    <string name="salario_basico">Salario Basico Mensual</string>
+    <string name="Diurnas">Horas extras diurnas</string>
+    <string name="Nocturnas">Horas extras Nocturnas</string>
+    <string name="Dominical">¿Trabajo en domingo o festivo?</string>
+    <string name="Transporte">¿Tiene Auxilio de transporte?</string>
+    <string name="btn_calcular">Calcular nomina</string>
+</resources>
