@@ -11,4 +11,4 @@ codigo: 56180
 Una calculadora de nomina de un trabajador en base a los decretos legales impuestos por el gobierno de colombia.
 
 # Carpeta Main
-Parcial del dia 15 de octubre 
+Parciales y trabajos
