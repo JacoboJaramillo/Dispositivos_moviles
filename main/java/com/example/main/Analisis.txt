@@ -1,0 +1,7 @@
+«Si el Repository llama a Retrofit sin try/catch desde viewModelScope.launch, y desactivo internet antes de volver a cargar, ¿qué ocurre y por qué?»
+
+R\La lista de elementos no se carga puesto que no tendrá conexión con la API, pero no mostrara la excepción exacta puesto que no hay manejo de errores en este caso
+
+¿por qué al no capturar la excepción la corrutina del ViewModel puede fallar y cerrar la app?
+
+R\Porque el sistema al no tener un bloque de control de errores, lanza una excepción no controlada, lo que como resultado puede hacer que la app falle y se cierre directamente
